@@ -5,17 +5,20 @@
     min-height: 695px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    background-color: var(--header-bg);
     background-image: url('header-bg.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
 
-    color: var(--header-text);
+    --header-text: var(--black);
     text-align: center;
+}
+.header__img {
+    max-width: 320px;
 }
 
 .header__wrapper {

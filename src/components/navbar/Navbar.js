@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <NavLink to="/portfolioreact" className="logo">
+          <NavLink to="/" className="logo">
             <strong>Иван</strong> Дереза
           </NavLink>
 
@@ -19,7 +19,7 @@ const Navbar = () => {
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
-                to="/portfolioreact"
+                to="/"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
