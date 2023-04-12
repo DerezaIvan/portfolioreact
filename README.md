@@ -14,7 +14,7 @@
 
 **Ссылка на проект GitHub**
 
-* [Portfolioreact]( https://derezaivan.github.io/)
+* [Portfolioreact](https://derezaivan.github.io/portfolioreact/)
 
 **Глобальная версия** 
 
